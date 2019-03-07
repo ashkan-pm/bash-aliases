@@ -41,3 +41,4 @@ alias ngsa="cd /etc/nginx/sites-available"
 
 #NordVPN
 alias ncon="nordvpn connect"
+alias ndis="nordvpn disconnect"
