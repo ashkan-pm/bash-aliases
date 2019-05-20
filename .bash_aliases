@@ -15,13 +15,6 @@ alias gac="git add --all; git commit -m "
 alias a2rel="service apache2 reload"
 alias a2res="service apache2 restart"
 
-# Composer
-alias bc="./bin/console "
-alias phs="./bin/console server:start"
-alias phss="./bin/console server:stop"
-alias bcm="./bin/console doctrine:migrations:migrate"
-alias bcl="./bin/console doctrine:fixtures:load"
-
 # Misc
 alias eh="sudo nano /etc/hosts"
 alias sshg="ssh-keygen -t rsa -C "ashkan.pourghasem@gmail.com" -b 4096"
@@ -42,3 +35,7 @@ alias ngsa="cd /etc/nginx/sites-available"
 #NordVPN
 alias ncon="nordvpn connect"
 alias ndis="nordvpn disconnect"
+
+alias lvnc="ssh -L 5901:127.0.0.1:5901 -N -f -l ashkanpm aspm.tech"
+alias aspm="sshpass -p 'zYiqBVwya5y23d' ssh ashkanpm@aspm.tech"
+alias kvnc="fuser -n tcp -k 5901"
