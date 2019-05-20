@@ -1,0 +1,36 @@
+# Package Manager
+alias api="sudo apt-get install "
+alias apu="sudo apt-get update"
+alias apr="sudo apt-get remove "
+alias app="sudo apt-get purge "
+
+# Places
+alias htd="cd ~/localhost"
+alias sa="cd /etc/nginx/sites-available"
+
+# Git
+alias gac="git add --all; git commit -m "
+
+# Apache
+alias a2rel="sudo systemctl reload apache2"
+alias a2res="sudo systemctl restart apache2"
+
+# Nginx
+alias nxstop="sudo systemctl stop nginx"
+alias nxstart="sudo systemctl start nginx"
+alias nxres="sudo systemctl restart nginx"
+alias nxrel="sudo systemctl reload nginx"
+alias nxdis="sudo systemctl disable nginx"
+alias nxen="sudo systemctl enable nginx"
+
+# Misc
+alias eh="sudo nano /etc/hosts"
+alias sshg="ssh-keygen -t rsa -C "ashkan.pourghasem@gmail.com" -b 4096"
+alias ea="nano ~/.bash_aliases"
+alias pd="echo zYiqBVwya5y23d"
+
+# VNC
+alias lvnc="sudo systemctl start vncserver@1.service"
+alias kvnc="sudo systemctl stop vncserver@1.service"
+
+echo zYiqBVwya5y23d
