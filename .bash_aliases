@@ -10,10 +10,16 @@ alias htd="cd ~/localhost"
 # Misc
 alias eh="sudo nano /etc/hosts"
 alias sshg="ssh-keygen -t rsa -C "ashkan.pourghasem@gmail.com" -b 4096"
+alias sshglong="ssh-keygen -t rsa -C "ashkan.pourghasem@googlemail.com" -b 4096"
+alias sshgshort="ssh-keygen -t rsa -C "ashkanpgm@gmail.com" -b 4096"
 alias ea="nano ~/.bash_aliases"
+alias sshd="cd ~/.ssh"
 
-# ASPM
-alias lvnc="ssh -L 5901:127.0.0.1:5901 -N -f -l ashkanpm aspm.tech"
-alias aspmtech="sshpass -p 'zYiqBVwya5y23d' ssh ashkanpm@aspm.tech"
-alias aspmsite="sshpass -p '2SKLzE1a$k2g' ssh ashkanpm@aspm.site"
-alias kvnc="fuser -n tcp -k 5901"
+# Git
+alias ga="git add --all"
+alias gc="git commit"
+alias gca="git commit --amend"
+alias gs="git status"
+alias gp="git pull"
+alias gpp="git push"
+alias gap="git add --patch"
