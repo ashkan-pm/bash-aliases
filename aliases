@@ -1,3 +1,5 @@
+alias ls="ls --color=none"
+
 # Package Manager
 alias api="sudo apt-get install "
 alias apu="sudo apt-get update"
@@ -11,18 +13,23 @@ alias htd="cd ~/localhost"
 alias eh="sudo nano /etc/hosts"
 alias ea="nano ~/.zshrc"
 alias sshd="cd ~/.ssh"
-alias ls="ls --color=none"
 
 # Git
 alias ga="git add --all"
-alias gc="git commit"
-alias gca="git commit --amend"
 alias gs="git status"
-alias gp="git pull"
-alias gpp="git push"
-alias go="git checkout "
-alias gob="git checkout -b "
-alias gup="git push -u origin "
+alias gco="git checkout "
+alias gcob="git checkout -b "
 
 # Docker
 alias dil="docker image list"
+
+# Kubectl
+alias kaf="kubectl apply -f "
+alias kdf="kubectl delete -f "
+alias kget="kubectl get pods -n "
+alias kgets="kubectl get service -n "
+alias wkget="watch kubectl get pods -n "
+alias kconf="kubectl config get-contexts"
+alias kuse="kubectl config use-context "
+alias kexec="kubectl exec -it "
+alias bfg="java -jar ~/Documents/bfg-1.14.0.jar"
