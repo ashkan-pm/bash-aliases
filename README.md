@@ -1,2 +1,2 @@
-# bash-aliases
+# Bash Aliases
 Commonly used bash aliases
